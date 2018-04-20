@@ -14,52 +14,68 @@
 </head>
 
 <body>
-  <div class="avenir f4 bg-yellow">
+  <div class="f6 pa2">
+
 
     <!-- If there is an error, this box is shown. 'dn' is the only required class -->
-    <div id="error" class="dn bg-red white pa4 fixed bottom-0 w-100">
+    <div id="error" class="dn bg-red white pa4 fixed fl w-100">
       Sorry, we couldn't find that city.
     </div>
 
+
     <!-- Search Box -->
-    <form id="location-search" class="pa4">
-      <h1 class="flex flex-wrap items-baseline">
-          <span class="mr3 mb2 blue f-headline lh-solid">
-            Where You At?
+    <form id="location-search" class="tc pa6-ns pa3 avenir">
+      <h1 class="item2">
+          <span class="mr3 mb2 f-headline-ns f2">
+            Weather Moods
           </span>
-          <input type="text" id="area" value="Boston" class="flex-auto">
-        </h1>
+            </h1>
+
+      <div class="f3-ns f5 tc pa2-ns pa3">
+        <input type="text" id="area" value="where you at?" class="flex-auto avenir">
+      </div>
     </form>
 
     <!-- Content -->
-    <div class="flex flex-wrap pa4">
-      <div class="w-100 w-50-m w-third-l">
+
+
+    <div class="avenir pt0 pb6 flex flex-wrap">
+
+      <div class="fl w-20-ns w-100 pa3">
+        <p></p>
+      </div>
+
+      <div class="fl w-20-ns w-100 pa3">
         <h2>Location</h2>
         <p>City: <span id="location-name"></span></p>
         <p>Country: <span id="country"></span></p>
       </div>
 
-      <div class="w-100 w-50-m w-third-l">
+      <div class="fl w-20-ns w-100 pa3">
         <h2>Temperature</h2>
         <p>Current Temp: <span id="temp"></span></p>
         <p>Max Temp: <span id="temp-max"></span></p>
         <p>Min Temp: <span id="temp-min"></span></p>
       </div>
 
-      <div class="w-100 w-50-m w-third-l">
+      <div class="fl w-20-ns w-100 pa3">
         <h2>Weather</h2>
         <p>Condition: <span id="condition"></span></p>
         <p>Desription: <span id="condition-description"></span></p>
         <p>Wind Speed: <span id="wind-speed"></span>mph</p>
       </div>
+
+      <div class="fl w-20-ns w-100 pa3">
+        <p></p>
+      </div>
     </div>
 
-  </div>
 
-  <!-- Site JavaScript -->
-  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
-  <script src="/javascript/main.js" charset="utf-8"></script>
-  <script src="/javascript/weather.js" charset="utf-8"></script>
+
+    <!-- Site JavaScript -->
+    <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+    <script src="/javascript/main.js" charset="utf-8"></script>
+    <script src="/javascript/weather.js" charset="utf-8"></script>
 </body>
 
 </html>

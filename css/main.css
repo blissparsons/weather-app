@@ -1,4 +1,33 @@
 /* ========================================
  * CSS written here will override Tachyons
  * ======================================== */
- 
+
+.hot {
+  background-color: orangered;
+}
+
+.warm {
+  background-color: lightyellow;
+}
+
+.cold {
+  background-color: darkblue;
+}
+
+.thunderstorm,
+.drizzle,
+.rain {
+  background: gray;
+}
+
+.snow {
+  background-color: azure;
+}
+
+.clouds {
+  background-color: lightgrey;
+}
+
+.windy {
+  background-color: lightblue;
+}

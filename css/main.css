@@ -2,38 +2,43 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
+.info {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .pic {
   margin: auto;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 40%;
+  max-height: 40%;
 }
 
 .hot {
-  background-color: orangered;
+  background-color: #ffb700;
 }
 
 .warm {
-  background-color: lightyellow;
+  background-color: #fbf1a9;
 }
 
 .cold {
-  background-color: darkblue;
+  background-color: #96ccff;
 }
 
 .thunderstorm,
 .drizzle,
 .rain {
-  font: gray;
+  font: #5d6d7e;
 }
 
 .snow {
-  font: white;
+  font: #fdfefe;
 }
 
 .clouds {
-  font: lightgrey;
+  font: #f2f4f4;
 }
 
 .windy {
-  font: lightblue;
+  font: #eaf2f8;
 }

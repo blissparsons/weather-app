@@ -2,6 +2,11 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
+.body {
+  text-size: 3px;
+  line-height: 8px;
+}
+
 .hot {
   background-color: orangered;
 }
@@ -17,17 +22,17 @@
 .thunderstorm,
 .drizzle,
 .rain {
-  background: gray;
+  font: gray;
 }
 
 .snow {
-  background-color: azure;
+  font: white;
 }
 
 .clouds {
-  background-color: lightgrey;
+  font: lightgrey;
 }
 
 .windy {
-  background-color: lightblue;
+  font: lightblue;
 }

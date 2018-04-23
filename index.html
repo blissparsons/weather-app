@@ -27,12 +27,12 @@
     <form id="location-search" class="pa4-ns avenir">
       <h1 class="item2">
           <span class="mr3 mb2 f2-ns f3">
-            Weather 8-ball
+            Magic Weather 8-ball
           </span>
             </h1>
 
       <div class="f4-ns f5 pa2-ns pa3">
-        <input type="text" id="area" value="enter city to read fortune" class="flex-auto avenir">
+        <input type="text" id="area" value="enter city" class="flex-auto avenir">
       </div>
     </form>
 
@@ -42,24 +42,28 @@
 
 
 
-    <div class="avenir pt0 pb6 flex flex-wrap body">
+    <div class="avenir flex flex-wrap">
 
-
-
-      <div class="fl w-100 pa1 f6 bg-black white lh5">
-        <p>Temp: <span id="temp"></span></p>
-        <p>Forecast: <span id="condition"></span></p>
-        <p>Max Temp: <span id="temp-max"></span></p>
-        <p>Min Temp: <span id="temp-min"></span></p>
-        <p>Desription: <span id="condition-description"></span></p>
-        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
-        <p>City: <span id="location-name"></span></p>
-        <p>Country: <span id="country"></span></p>
-
-
+      <div class="pa3 tc">
+        <img class="pic" src="8ball.jpg">
       </div>
 
+      <div class="fl w-third pa4 f6 lh5">
+        <p>Temp: <span id="temp"></span></p>
+        <p>Max Temp: <span id="temp-max"></span></p>
+        <p>Min Temp: <span id="temp-min"></span></p>
+      </div>
 
+      <div class="fl w-third pa4 f6 lh5">
+        <p>Forecast: <span id="condition"></span></p>
+        <p>Desription: <span id="condition-description"></span></p>
+        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+      </div>
+
+      <div class="fl w-third pa4 f6 lh5">
+        <p>City: <span id="location-name"></span></p>
+        <p>Country: <span id="country"></span></p>
+      </div>
 
       <!-- Site JavaScript -->
       <script src="/javascript/toggleClass.js" charset="utf-8"></script>

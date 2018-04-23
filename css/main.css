@@ -2,9 +2,10 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-.body {
-  text-size: 3px;
-  line-height: 8px;
+.pic {
+  margin: auto;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 .hot {

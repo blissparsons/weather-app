@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Set a page title -->
-  <title>Weather</title>
+  <title>Magic Weather 8-Ball</title>
 
   <!-- Site Styles -->
   <link rel="stylesheet" href="/css/tachyons.min.css">
@@ -14,25 +14,25 @@
 </head>
 
 <body>
-  <div class="f6 tc">
+  <div class="f6 courier tc">
 
 
     <!-- If there is an error, this box is shown. 'dn' is the only required class -->
-    <div id="error" class="dn bg-red white pa4 fixed fl w-100">
+    <div id="error" class="dn bg-red white pa4 fixed fl w-100 courier">
       Sorry, we couldn't find that city.
     </div>
 
 
     <!-- Search Box -->
-    <form id="location-search" class="pa4-ns avenir">
+    <form id="location-search" class="pa4-ns courier">
       <h1 class="item2">
           <span class="mr3 mb2 f2-ns f3">
-            Magic Weather 8-ball
+            Magic Weather 8-Ball
           </span>
             </h1>
 
-      <div class="f4-ns f5 pa2-ns pa3">
-        <input type="text" id="area" value="enter city" class="flex-auto avenir">
+      <div class="f4-ns f5 pa2-ns pa3 courier">
+        <input type="text" id="area" value="enter city" class="flex-auto">
       </div>
     </form>
 
@@ -41,33 +41,38 @@
 
 
     <div class="pa3">
-      <img class="pic" src="8ball.jpg">
+      <img class="pic" src="notgood.png">
     </div>
 
-    <div class="avenir flex flex-wrap info f6 lh5 tc">
+    <div class="flex flex-wrap lh5 tc">
 
-      <div class="pa3">
+      <div class="pa4">
         <p>Temp: <span id="temp"></span></p>
         <p>Max Temp: <span id="temp-max"></span></p>
         <p>Min Temp: <span id="temp-min"></span></p>
       </div>
 
-      <div class="pa3">
+      <div class="pa4">
         <p>Forecast: <span id="condition"></span></p>
         <p>Desription: <span id="condition-description"></span></p>
         <p>Wind Speed: <span id="wind-speed"></span>mph</p>
       </div>
 
-      <div class="pa3">
+      <div class="pa4">
         <p>City: <span id="location-name"></span></p>
         <p>Country: <span id="country"></span></p>
       </div>
     </div>
+  </div>
 
-    <!-- Site JavaScript -->
-    <script src="/javascript/toggleClass.js" charset="utf-8"></script>
-    <script src="/javascript/main.js" charset="utf-8"></script>
-    <script src="/javascript/weather.js" charset="utf-8"></script>
+
+
+  </div>
+
+  <!-- Site JavaScript -->
+  <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+  <script src="/javascript/main.js" charset="utf-8"></script>
+  <script src="/javascript/weather.js" charset="utf-8"></script>
 </body>
 
 </html>

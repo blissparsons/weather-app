@@ -2,11 +2,6 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
-.info {
-  width: 50%;
-  margin: 0 auto;
-}
-
 .pic {
   margin: auto;
   max-width: 40%;
@@ -14,11 +9,11 @@
 }
 
 .hot {
-  background-color: #ffb700;
+  background-color: #ff5722;
 }
 
 .warm {
-  background-color: #fbf1a9;
+  background-color: #ffd54f;
 }
 
 .cold {

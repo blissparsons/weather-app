@@ -2,6 +2,11 @@
  * CSS written here will override Tachyons
  * ======================================== */
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .pic {
   margin: auto;
   max-width: 40%;

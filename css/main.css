@@ -9,16 +9,19 @@
 
 .space {
   margin: auto;
-  width: 40vw;
-  height: 40vw;
+  width: 35vw;
+  height: 35vw;
 }
 
-.hot {
-  background-color: #ff5722;
+.hot .sky {
+  background-image: linear-gradient(red, yellow);
 }
 
-.warm {
-  background-image: linear-gradient(gold, lightblue);
+.hot .space {
+  background-image: url(/hot.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .warm .space {
@@ -32,18 +35,30 @@
   background-image: linear-gradient(gold, lightblue);
 }
 
-.cold {
-  background-color: #96ccff;
+.cold .sky {
+  background-image: linear-gradient(blue, white);
 }
 
-.thunderstorm,
-.drizzle,
-.rain {
-  font: #5d6d7e;
+.cold .space {
+  background-image: url(/cold.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rain .sky {
+  background-image: linear-gradient(darkblue, lightblue);
+}
+
+.rain .space {
+  background-image: url(/wet.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .snow {
-  font: #fdfefe;
+  background-image: linear-gradient(grey, white);
 }
 
 .clouds {

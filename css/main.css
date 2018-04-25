@@ -13,6 +13,15 @@
   height: 35vw;
 }
 
+.cannot {
+  background-image: url(/cannot.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  padding-top: 50px;
+}
+
 .hot .sky {
   background-image: linear-gradient(red, yellow);
 }
@@ -24,15 +33,15 @@
   background-size: contain;
 }
 
+.warm .sky {
+  background-image: linear-gradient(gold, lightblue);
+}
+
 .warm .space {
   background-image: url(/warm.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.warm .sky {
-  background-image: linear-gradient(gold, lightblue);
 }
 
 .cold .sky {
@@ -57,14 +66,46 @@
   background-size: contain;
 }
 
-.snow {
-  background-image: linear-gradient(grey, white);
+.drizzle .sky {
+  background-image: linear-gradient(lightblue, grey);
 }
 
-.clouds {
-  font: #f2f4f4;
+.drizzle .space {
+  background-image: url(/wet.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.windy {
-  font: #eaf2f8;
+.thunderstorm .sky {
+  background-image: linear-gradient(blue, purple);
+}
+
+.thunderstorm .space {
+  background-image: url(/wet.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snow .sky {
+  background-image: linear-gradient(white, grey);
+}
+
+.snow .space {
+  background-image: url(/snow.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.windy .sky {
+  background-image: linear-gradient(white, lighblue);
+}
+
+.windy .space {
+  background-image: url(/windy.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

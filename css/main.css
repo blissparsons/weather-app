@@ -9,8 +9,8 @@
 
 .space {
   margin: auto;
-  width: 35vw;
-  height: 35vw;
+  width: 40vw;
+  height: 40vw;
 }
 
 .cannot {
@@ -18,8 +18,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  position: relative;
-  padding-top: 50px;
 }
 
 .hot .sky {

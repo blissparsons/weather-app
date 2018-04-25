@@ -7,10 +7,10 @@
   justify-content: center;
 }
 
-.pic {
+.space {
   margin: auto;
-  max-width: 40%;
-  max-height: 40%;
+  width: 40vw;
+  height: 40vw;
 }
 
 .hot {
@@ -18,10 +18,18 @@
 }
 
 .warm {
-  background-image: url(/warm.png), linear-gradient(gold, lightblue);
-  background-size: 20%;
+  background-image: linear-gradient(gold, lightblue);
+}
+
+.warm .space {
+  background-image: url(/warm.png);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: contain;
+}
+
+.warm .sky {
+  background-image: linear-gradient(gold, lightblue);
 }
 
 .cold {

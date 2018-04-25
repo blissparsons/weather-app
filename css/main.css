@@ -14,6 +14,8 @@
 }
 
 .cannot {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/cannot.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -25,6 +27,8 @@
 }
 
 .hot .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/hot.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -36,6 +40,8 @@
 }
 
 .warm .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/warm.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -47,6 +53,8 @@
 }
 
 .cold .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/cold.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -58,6 +66,8 @@
 }
 
 .rain .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/wet.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -69,6 +79,8 @@
 }
 
 .drizzle .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/wet.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -80,6 +92,8 @@
 }
 
 .thunderstorm .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/wet.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -91,6 +105,8 @@
 }
 
 .snow .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/snow.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -102,8 +118,46 @@
 }
 
 .windy .space {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
   background-image: url(/windy.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
